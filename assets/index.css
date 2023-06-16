@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+*{
+    font-family:  'Poppins';
+}
+.c-pointer{
+    cursor: pointer;
+}
+.logofont{
+    font-family:  'Sacramento';
+}
+.bgcontainer{
+    z-index: -1;
+}
+.objs1{
+    height: 100%;
+    animation: myanimate1 60s linear infinite;
+}
+.objs2{
+    height: 100%;
+    animation: myanimate2 60s linear infinite;
+}
+.objs3{
+    height: 100%;
+    animation: myanimate3 60s linear infinite;
+}
+.objs4{
+    height: 100%;
+    animation: myanimate3 60s linear infinite;
+}
+.obj{
+    animation: myanimate2 60s linear infinite;
+}
+@keyframes myanimate1 {
+  
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+}
+@keyframes myanimate2 {
+  
+    from {
+        transform: rotate(45deg);
+      }
+      to {
+        transform: rotate(-44deg);
+      }
+}
+@keyframes myanimate3 {
+  
+    from {
+        transform: rotate(360deg);
+      }
+      to {
+        transform: rotate(0deg);
+      }
+}
+@keyframes myanimate4 {
+  
+    from {
+        transform: rotate(100deg);
+      }
+      to {
+        transform: rotate(-100deg);
+      }
+}
+
+.to-rose-500 {
+    --tw-gradient-to: #f43f5e;
+}
+.from-fuchsia-500 {
+    --tw-gradient-from: #d946ef;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgba(217,70,239,0));
+}
+.from-light-blue-400 {
+    --tw-gradient-from: #38bdf8;
+    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgba(56,189,248,0));
+}
